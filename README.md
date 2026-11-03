@@ -19,6 +19,6 @@ One custom repository for all of my FFXIV plugins. Add it once and every plugin 
 
 ## How it stays up to date
 
-Each plugin lives in its own repo with its own releases and `repo.json`. Every 30 minutes (or on demand from the Actions
+Each plugin lives in its own repo with its own releases and `repo.json`. Every 10 minutes (or on demand from the Actions
 tab) a job here merges those into `pluginmaster.json`. To add a plugin, add its `repo.json` raw link to
 `sources.txt`.
