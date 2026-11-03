@@ -1,0 +1,5 @@
+# One plugin repo.json per line. The hourly job merges them into pluginmaster.json.
+https://raw.githubusercontent.com/sadoniaveletoria/Faterunner/main/repo.json
+https://raw.githubusercontent.com/sadoniaveletoria/TargetZoom/main/repo.json
+https://raw.githubusercontent.com/sadoniaveletoria/MogFlix/main/repo.json
+https://raw.githubusercontent.com/sadoniaveletoria/CraftBuddy/main/repo.json

@@ -1,0 +1,31 @@
+name: Update plugin list
+
+# Rebuilds pluginmaster.json from each plugin's repo.json: every hour, on push, or by hand (Actions → Run workflow).
+on:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Merge
+        run: python scripts/merge.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- pluginmaster.json; then echo "No changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pluginmaster.json
+          git commit -m "Update plugin list"
+          git push
