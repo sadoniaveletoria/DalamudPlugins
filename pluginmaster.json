@@ -3,7 +3,7 @@
     "Author": "Sadonia",
     "Name": "CraftBuddy",
     "InternalName": "CraftBuddy",
-    "AssemblyVersion": "1.11.0.0",
+    "AssemblyVersion": "1.13.0.0",
     "Punchline": "Gets every material for a craft — retainers, mob drops, gathering, fishing, reduction, vendors — then crafts it with Artisan.",
     "Description": "Pick a recipe or an item and how many. CraftBuddy works out everything it needs, sub-crafts included, and gets it: it takes what your retainers hold first, farms mob drops with vnavmesh and Wrath Combo, gathers and fishes through GatherBuddy Reborn (buying the right bait), uses aetherial reduction only when nothing else gives the material, and buys from vendors. Then it goes home and crafts with Artisan, and stores the leftovers with your retainers.\n\nCraftBuddy used to be called DropBuddy; your settings carry over.\n\nRequires: vnavmesh, Wrath Combo. Optional: Lifestream, GatherBuddy Reborn, Artisan, AutoHook, AutoRetainer, FateRunner.",
     "RepoUrl": "https://github.com/sadoniaveletoria/CraftBuddy",
@@ -15,15 +15,15 @@
       "farming",
       "automation"
     ],
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.11.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.11.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.11.0.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.13.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.13.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.13.0.0/latest.zip"
   },
   {
     "Author": "Sadonia",
     "Name": "FateRunner",
     "InternalName": "FateRunner",
-    "AssemblyVersion": "0.0.0.3",
+    "AssemblyVersion": "0.0.0.4",
     "Punchline": "Automated FATE farming for Bicolor Gemstones or leveling.",
     "Description": "Finds FATEs, flies to them, level syncs, fights with Wrath Combo (BossMod AI optional), handles hand-in and escort FATEs, keeps your chocobo out, and hops zones. Requires vnavmesh and Wrath Combo.",
     "RepoUrl": "https://github.com/sadoniaveletoria/Faterunner",
@@ -35,9 +35,9 @@
       "leveling",
       "automation"
     ],
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.3/latest.zip"
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.4/latest.zip"
   },
   {
     "Author": "sad0nia.velvet",
