@@ -22,3 +22,6 @@ One custom repository for all of my FFXIV plugins. Add it once and every plugin 
 Each plugin lives in its own repo with its own releases and `repo.json`. Every 10 minutes (or on demand from the Actions
 tab) a job here merges those into `pluginmaster.json`. To add a plugin, add its `repo.json` raw link to
 `sources.txt`.
+
+Each plugin's release job also asks this repo to rebuild the list as soon as a release is published (using the
+`PLUGIN_LIST_TOKEN` secret in that plugin's repo), so new versions show up within a few minutes.

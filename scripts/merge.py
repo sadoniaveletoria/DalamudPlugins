@@ -20,6 +20,26 @@ def gh_json(url):
         return json.loads(r.read().decode("utf-8"))
 
 
+def fetch_repo_json(url):
+    """
+    A plugin's repo.json. raw.githubusercontent.com links are read through the GitHub API instead, because the raw
+    CDN caches for ~5 minutes: right after a release (when this job is triggered) it would still serve the old version.
+    """
+    m = re.match(r"https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.+)$", url)
+    if m:
+        owner, repo, ref, path = m.groups()
+        req = urllib.request.Request(f"https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={ref}",
+                                     headers={"Accept": "application/vnd.github.raw+json", "User-Agent": "plugin-list-builder"})
+        token = os.environ.get("GITHUB_TOKEN")
+        if token:
+            req.add_header("Authorization", f"Bearer {token}")
+    else:
+        req = urllib.request.Request(url, headers={"User-Agent": "plugin-list-builder"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        entries = json.loads(r.read().decode("utf-8-sig"))
+    return entries
+
+
 def same_version(tag, version):
     """v0.0.5 matches 0.0.5.0; v1.11.0.0 matches 1.11.0.0."""
     a = [int(x) for x in re.findall(r"\d+", tag)]
@@ -69,8 +89,7 @@ sources = [l.strip() for l in (root / "sources.txt").read_text().splitlines() if
 merged, seen = [], set()
 for url in sources:
     try:
-        with urllib.request.urlopen(url, timeout=30) as r:
-            entries = json.loads(r.read().decode("utf-8-sig"))
+        entries = fetch_repo_json(url)
         if isinstance(entries, dict):
             entries = [entries]
         print(f"ok   {url}: {', '.join(e.get('InternalName', '?') for e in entries)}")
