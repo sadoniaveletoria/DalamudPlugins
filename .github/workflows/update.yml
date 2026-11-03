@@ -20,6 +20,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Merge
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/merge.py
       - name: Commit if changed
         run: |
