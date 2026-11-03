@@ -1,9 +1,9 @@
 name: Update plugin list
 
-# Rebuilds pluginmaster.json from each plugin's repo.json: every hour, on push, or by hand (Actions → Run workflow).
+# Rebuilds pluginmaster.json from each plugin's repo.json: every 30 minutes, on push, or by hand (Actions → Run workflow).
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17,47 * * * *"
   push:
     branches: [ main ]
   workflow_dispatch:
