@@ -15,9 +15,9 @@
       "farming",
       "automation"
     ],
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/CraftBuddy/releases/latest/download/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/CraftBuddy/releases/latest/download/latest.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/CraftBuddy/releases/latest/download/latest.zip"
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.11.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.11.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/CraftBuddy/releases/download/v1.11.0.0/latest.zip"
   },
   {
     "Author": "Sadonia",
@@ -35,9 +35,9 @@
       "leveling",
       "automation"
     ],
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/Faterunner/releases/latest/download/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/Faterunner/releases/latest/download/latest.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/Faterunner/releases/latest/download/latest.zip"
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.3/latest.zip"
   },
   {
     "Author": "sad0nia.velvet",
@@ -57,9 +57,9 @@
     ],
     "IconUrl": "https://raw.githubusercontent.com/sadoniaveletoria/MogFlix/main/images/icon.png",
     "IsHide": false,
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/MogFlix/releases/latest/download/MogFlix.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/MogFlix/releases/latest/download/MogFlix.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/MogFlix/releases/latest/download/MogFlix.zip"
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/MogFlix/releases/download/v0.0.5/MogFlix.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/MogFlix/releases/download/v0.0.5/MogFlix.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/MogFlix/releases/download/v0.0.5/MogFlix.zip"
   },
   {
     "Author": "Sadonia",
@@ -76,9 +76,9 @@
       "screenshot"
     ],
     "RepoUrl": "https://github.com/sadoniaveletoria/TargetZoom",
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/TargetZoom/releases/latest/download/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/TargetZoom/releases/latest/download/latest.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/TargetZoom/releases/latest/download/latest.zip",
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/TargetZoom/releases/download/v0.0.0.12/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/TargetZoom/releases/download/v0.0.0.12/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/TargetZoom/releases/download/v0.0.0.12/latest.zip",
     "LastUpdate": 1791987511,
     "IconUrl": "https://raw.githubusercontent.com/sadoniaveletoria/TargetZoom/main/images/icon.png"
   }
