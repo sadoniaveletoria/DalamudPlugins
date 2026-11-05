@@ -23,7 +23,7 @@
     "Author": "Sadonia",
     "Name": "FateRunner",
     "InternalName": "FateRunner",
-    "AssemblyVersion": "0.0.0.9",
+    "AssemblyVersion": "0.0.0.10",
     "Punchline": "Automated FATE farming for Bicolor Gemstones or leveling.",
     "Description": "Finds FATEs, flies to them, level syncs, fights with Wrath Combo (BossMod AI optional), handles hand-in and escort FATEs, keeps your chocobo out, and hops zones. Requires vnavmesh and Wrath Combo.",
     "RepoUrl": "https://github.com/sadoniaveletoria/Faterunner",
@@ -35,9 +35,9 @@
       "leveling",
       "automation"
     ],
-    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.9/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.9/latest.zip",
-    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.9/latest.zip"
+    "DownloadLinkInstall": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.10/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.10/latest.zip",
+    "DownloadLinkTesting": "https://github.com/sadoniaveletoria/Faterunner/releases/download/v0.0.0.10/latest.zip"
   },
   {
     "Author": "sad0nia.velvet",
